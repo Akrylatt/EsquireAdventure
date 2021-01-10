@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.EsquireAdventure">
+
+
+   <!-- <ListPreference
+        android:key="pref_lang"
+        android:title="@string/pref_language"
+        android:entries="@array/pref_languages_entries"
+        android:entryValues="@array/pref_languages_values"
+        android:defaultValue="@string/pref_default_language_value"
+        /><-->
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_music"
+        android:title="@string/pref_music"
+        />
+
+    <ListPreference
+        android:key="pref_text_size"
+        android:title="@string/pref_text_size"
+        android:entries="@array/pref_text_size_text"
+        android:entryValues="@array/pref_text_size_value"
+        android:defaultValue="@string/pref_default_text_size"
+        />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_dark_mode"
+        android:title="@string/pref_dark_mode"/>
+
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="action_about">Про игру</string>
+
+    <string name="about_text">About the app...</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="load_game">Продолжить игру</string>
+
+    <string name="headline">Приключение оруженосца</string>
+
+    <string name="about">Про игру</string>
+
+    <string name="pref_music">Музыка</string>
+    <string name="pref_text_size">Размер фонта</string>
+
+
+    <string-array name="pref_text_size_text">
+        <item>Маленкий</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string-array name="pref_text_size_value">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+
+
+    <string name="pref_dark_mode">Ночной режим</string>
+
+    <string name="pref_default_text_size" translatable="false">Medium</string>
+    <string name="ornamentpicture" translatable="false">OrnamentPicture</string>
+    <string name="esquiredrawing" translatable="false">EsquireDrawing</string>
+    <string name="new_game">Новая игра</string>
+
+    <string name="nothing_to_delete">Удалить нечего</string>
+
+    <!-- Story text -->
+
+    <string name="Name_of_Slide">You are in the game</string>
+
+    <string-array name="Text1_Buttons">
+        <item>Go next</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="Text2">Text2
+        You have object from the slide 2</string>
+    <string-array name="Text2_Buttons">
+        <item>Go to the first</item>
+        <item>Random choice ⚄</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string name="Text3">Text3
+        You do not have object from the slide 2</string>
+    <string-array name="Text3_Buttons">
+        <item>Go to the first</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>
