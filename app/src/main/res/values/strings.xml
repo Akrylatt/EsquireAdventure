@@ -42,11 +42,11 @@
 
     <!-- Story text -->
 
-    <string name="Name_of_Slide">You are in the game</string>
+    <string name="Text1">"You are in the game"</string>
 
     <string-array name="Text1_Buttons">
-        <item>Go next</item>
-        <item></item>
+        <item>"Go next"</item> <!-- Story text -->
+        <item>""</item>
         <item></item>
         <item></item>
         <item></item>
@@ -73,6 +73,18 @@
         <item></item>
         <item></item>
         <item></item>
+    </string-array>
+
+    <!-- Example of slide text -->
+    <string name="castle_1">"The king asked you: \"What do you want?\""</string>
+
+    <string-array name="castle_1_buttons">
+        <item>"\"I want to warn you!\""</item> <!-- castle_2 -->
+        <item>"\"Nothing, sorry for disturbing you.\""</item> <!-- random: 1/2 castle_2, 1/2 castle_3 -->
+        <item>""</item> <!-- none -->
+        <item>""</item> <!-- none -->
+        <item>""</item> <!-- none -->
+        <item>""</item> <!-- none -->
     </string-array>
 
 </resources>
